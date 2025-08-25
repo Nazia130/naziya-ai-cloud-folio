@@ -2,41 +2,67 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Naziya Parveen Portfolio Design System
+All colors MUST be HSL. Theme: Midnight Blue & Sky Blue
 */
 
 @layer base {
   :root {
+    /* Portfolio Brand Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
+    --foreground: 206 49% 11%;
+    
+    /* Midnight Blue Theme */
+    --midnight: 206 49% 11%;          /* #1E2A38 converted to HSL */
+    --midnight-light: 206 35% 20%;    /* Lighter variation */
+    --midnight-dark: 206 65% 8%;      /* Darker variation */
+    
+    /* Sky Blue Theme */
+    --sky: 193 67% 53%;               /* #3BAFDA converted to HSL */
+    --sky-light: 193 67% 65%;         /* Lighter variation */
+    --sky-dark: 193 67% 40%;          /* Darker variation */
+    
+    /* System Colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
+    --card-foreground: 206 49% 11%;
+    
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
-
-    --radius: 0.5rem;
+    --popover-foreground: 206 49% 11%;
+    
+    --primary: 193 67% 53%;           /* Sky blue as primary */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 206 30% 95%;         /* Light blue-gray */
+    --secondary-foreground: 206 49% 11%;
+    
+    --muted: 206 20% 96%;
+    --muted-foreground: 206 20% 45%;
+    
+    --accent: 193 67% 95%;            /* Very light sky blue */
+    --accent-foreground: 206 49% 11%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 206 20% 90%;
+    --input: 206 20% 95%;
+    --ring: 193 67% 53%;
+    
+    --radius: 0.75rem;
+    
+    /* Portfolio Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(var(--midnight)), hsl(var(--sky-dark)));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(206 20% 98%));
+    --gradient-accent: linear-gradient(90deg, hsl(var(--sky-light)), hsl(var(--sky)));
+    
+    /* Shadows with brand colors */
+    --shadow-card: 0 4px 20px -8px hsl(var(--midnight) / 0.15);
+    --shadow-hover: 0 8px 30px -12px hsl(var(--sky) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--sky) / 0.2);
+    
+    /* Animation Variables */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
     --sidebar-background: 0 0% 98%;
 
