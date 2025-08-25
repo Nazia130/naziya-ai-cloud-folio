@@ -36,7 +36,7 @@ const ProjectsSection = () => {
         'Deployed web-based interface for easy access'
       ],
       technologies: ['Python', 'NLTK', 'Flask', 'SQLite', 'HTML/CSS', 'JavaScript'],
-      githubUrl: 'https://github.com/naziyaparveen/college-chatbot',
+      githubUrl: 'https://github.com/Nazia130/college-chatbot',
       gradient: 'from-sky/20 to-sky-light/10'
     },
     {
@@ -50,7 +50,7 @@ const ProjectsSection = () => {
         'Built secure database integration for information retrieval'
       ],
       technologies: ['Python', 'OpenCV', 'TensorFlow', 'Face Recognition', 'SQLite', 'Tkinter'],
-      githubUrl: 'https://github.com/naziyaparveen/face2info-recognition',
+      githubUrl: 'https://github.com/Nazia130/face2info-recognition',
       gradient: 'from-midnight/20 to-midnight-light/10'
     }
   ];

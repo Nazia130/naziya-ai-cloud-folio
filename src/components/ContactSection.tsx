@@ -103,29 +103,29 @@ const ContactSection = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: 'Email',
-      value: 'naziyaparveen@example.com',
-      href: 'mailto:naziyaparveen@example.com',
+      value: 'syedanaziya506@gmail.com',
+      href: 'mailto:syedanaziya506@gmail.com',
       color: 'text-sky hover:text-sky-dark'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       title: 'Phone',
-      value: '+91 98765 43210',
-      href: 'tel:+919876543210',
+      value: '+91 88841 78492',
+      href: 'tel:+918884178492',
       color: 'text-sky hover:text-sky-dark'
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       title: 'LinkedIn',
-      value: 'linkedin.com/in/naziya-parveen',
-      href: 'https://linkedin.com/in/naziya-parveen',
+      value: 'linkedin.com/in/naziya-parveen2004',
+      href: 'https://linkedin.com/in/naziya-parveen2004',
       color: 'text-sky hover:text-sky-dark'
     },
     {
       icon: <Github className="w-6 h-6" />,
       title: 'GitHub',
-      value: 'github.com/naziyaparveen',
-      href: 'https://github.com/naziyaparveen',
+      value: 'github.com/Nazia130',
+      href: 'https://github.com/Nazia130',
       color: 'text-sky hover:text-sky-dark'
     }
   ];
