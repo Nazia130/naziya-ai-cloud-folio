@@ -65,7 +65,7 @@ const Header = () => {
             <Button 
               variant="default"
               className="bg-sky hover:bg-sky-dark text-white font-medium"
-              onClick={() => window.open('https://drive.google.com/file/d/11D4nBviaghWO_9m1Je-pwkRt0B-ycxUV/view?usp=sharing', '_blank')}
+              onClick={() => window.open('https://drive.google.com/file/d/1IBLsxb6hKA82kwCAzWXDTRErNbqvCKu0/view?usp=sharing', '_blank')}
             >
               <Download className="w-4 h-4 mr-2" />
               Download Resume
@@ -102,7 +102,7 @@ const Header = () => {
                 variant="default"
                 className="bg-sky hover:bg-sky-dark text-white font-medium mt-4"
                 onClick={() => {
-                  window.open('https://drive.google.com/file/d/11D4nBviaghWO_9m1Je-pwkRt0B-ycxUV/view?usp=sharing', '_blank');
+                  window.open('https://drive.google.com/file/d/1IBLsxb6hKA82kwCAzWXDTRErNbqvCKu0/view?usp=sharing', '_blank');
                   setIsMobileMenuOpen(false);
                 }}
               >
